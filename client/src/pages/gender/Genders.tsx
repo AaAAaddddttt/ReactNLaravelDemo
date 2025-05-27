@@ -1,4 +1,4 @@
-import AddGenderForms from "../../components/forms/AddGenderForms";
+import AddGenderForms from "../../components/forms/AddGenderForm";
 import GendersTable from "../../components/tables/GendersTable";
 import MainLayout from "../layout/MainLayout";
 
@@ -6,10 +6,10 @@ const Genders = () => {
   const content = (
     <>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-3">
           <AddGenderForms />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-9">
           <GendersTable />
         </div>
       </div>
